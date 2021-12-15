@@ -28,17 +28,23 @@ export default function Home() {
           <div className='margin-vert--lg'>
             <h1>灰皮书</h1>
             <h2 className='margin-vert--lg'>欢迎来到 vvvv gamma 中文文档</h2>
-            <p className={clsx("margin-top--lg", styles.description)}>本站点的目标是翻译vvvv-gamma的文档，方便vvvv的中文学习者。当然翻译的过程往往就是信息丢失的过程，很难很精确地传递原本的意思。但是我相信本着深入浅出与抛砖引玉的信念，多少是个好的开始。</p>
-            <p>同时如果你也有兴趣交流或者参与翻译工作，请随时联系我，同时请查看
-              <a
-                href="https://github.com/lavalse/thegraybookcn"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                github
-              </a>
-              。
-            </p>
+            <div className={styles.description}>
+              <p>
+                本站的是
+                <a href="https://thegraybook.vvvv.org/" target="_blank">
+                  the gray book
+                </a>
+                的中文站点。分享资讯，方便华语世界用户学习分享。同时如果你也有兴趣交流或者参与翻译工作，请随时联系我，同时请查看<a
+                  href="https://github.com/lavalse/thegraybookcn"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  github
+                </a>
+                。
+              </p>
+            </div>
+
           </div>
           <hr></hr>
           <div className='margin-vert--lg'>

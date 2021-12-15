@@ -26,3 +26,7 @@
 .ol{
   list-style-type:none;
 }
+
+.description{
+  width: 50%;
+}

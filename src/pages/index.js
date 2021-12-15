@@ -25,9 +25,9 @@ export default function Home() {
       description="Monday Tutorial <head />">
       <main>
         <div className='container margin-vert--lg'>
-          <div className='margin-vert--xl'>
+          <div className='margin-vert--lg'>
             <h1>欢迎来到 vvvv gamma 中文文档</h1>
-            <p>本站点的目标是翻译vvvv-gamma的文档，方便vvvv的中文学习者。当然翻译的过程往往就是信息丢失的过程，很难很精确地传递原本的意思。但是我相信本着深入浅出与抛砖引玉的信念，多少是个好的开始。</p>
+            <p className={clsx("margin-top--lg", styles.description)}>本站点的目标是翻译vvvv-gamma的文档，方便vvvv的中文学习者。当然翻译的过程往往就是信息丢失的过程，很难很精确地传递原本的意思。但是我相信本着深入浅出与抛砖引玉的信念，多少是个好的开始。</p>
             <p>同时如果你也有兴趣交流或者参与翻译工作，请随时联系我，同时请查看
               <a
                 href="https://github.com/lavalse/thegraybookcn"
@@ -40,7 +40,7 @@ export default function Home() {
             </p>
           </div>
           <hr></hr>
-          <div className='margin-vert--xl'>
+          <div className='margin-vert--lg'>
             <p>官方资源</p>
             <ol className={styles.ol}>
               <li>
@@ -81,15 +81,9 @@ export default function Home() {
                   </a>
                 </h3>
               </li>
-              <li>
-                <h3>
-                  <a href="https://thegraybook.vvvv.org/" target="_blank">
-                    the gray book
-                  </a>
-                </h3>
-              </li>
             </ol>
           </div>
+          <hr></hr>
         </div>
       </main>
     </Layout>

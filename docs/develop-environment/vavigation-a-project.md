@@ -3,7 +3,7 @@ title: 文件导航
 sidebar_position: 3
 ---
 
-一个VL项目基本指的是一个.vl的文档。这个文档可能会包含一个或者多个的图档。除此之外，一个文档也可以以来别的文档，或者是Nugets的文档。这些文档的结点是可以访问的。
+一个VL项目基本指的是一个.vl的文档。这个文档可能会包含一个或者多个的图档。除此之外，一个文档也可以以来别的文档，或者是Nugets的文档。这些文档的节点是可以访问的。
 
 在窗口的菜单栏你总能看到你现在编写的文档的名字，可以说是“被激活的文档”。
 
@@ -41,7 +41,7 @@ sidebar_position: 3
 
 ### VL Nugets
 
-选择 “VL Nugets” 就会看到一个列表。这个列表包含着所有面向VL的nugets。每一个nuget都是一个文档（.vl, .dll ...）的集合，这些文档提供可使用的结点。
+选择 “VL Nugets” 就会看到一个列表。这个列表包含着所有面向VL的nugets。每一个nuget都是一个文档（.vl, .dll ...）的集合，这些文档提供可使用的节点。
 
 在nuget旁边带着括号的版本，意味着当前所加载的nuget的版本与原本应该加载的版本不一致。
 
@@ -51,7 +51,7 @@ sidebar_position: 3
 
 ![](https://thegraybook.vvvv.org/images/hde/gamma-active_document_menu_dependencies_vlnugets.png)
 
-右键某个nuget就可以选中它。你将可以使用选中的nuget所提供的结点，当然是通过在文档中的结点浏览器。
+右键某个nuget就可以选中它。你将可以使用选中的nuget所提供的节点，当然是通过在文档中的节点浏览器。
 
 ### .NET Nugets
 
@@ -63,7 +63,7 @@ sidebar_position: 3
 - .vl
 - .dll
 ![](https://thegraybook.vvvv.org/images/hde/gamma-active_document_menu_dependencies_addfiles.png)
-选择“Add Existing...”来选择一个文件。文件中的所有暴露开放出来的结点你都可以通过结点浏览器来使用。
+选择“Add Existing...”来选择一个文件。文件中的所有暴露开放出来的节点你都可以通过节点浏览器来使用。
 
 ### Forward Dependencies
 

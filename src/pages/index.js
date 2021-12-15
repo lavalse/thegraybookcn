@@ -26,7 +26,8 @@ export default function Home() {
       <main>
         <div className='container margin-vert--lg'>
           <div className='margin-vert--lg'>
-            <h1>欢迎来到 vvvv gamma 中文文档</h1>
+            <h1>灰皮书</h1>
+            <h2 className='margin-vert--lg'>欢迎来到 vvvv gamma 中文文档</h2>
             <p className={clsx("margin-top--lg", styles.description)}>本站点的目标是翻译vvvv-gamma的文档，方便vvvv的中文学习者。当然翻译的过程往往就是信息丢失的过程，很难很精确地传递原本的意思。但是我相信本着深入浅出与抛砖引玉的信念，多少是个好的开始。</p>
             <p>同时如果你也有兴趣交流或者参与翻译工作，请随时联系我，同时请查看
               <a

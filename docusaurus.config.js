@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Monday Tutorial',
-  tagline: 'tutorial site',
+  title: '灰皮书',
+  tagline: 'vvvv gamma 中文文档',
   url: 'https://tutorial.mondaypicnic.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',

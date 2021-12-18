@@ -13,4 +13,28 @@ Operations定义了一段简单的功能。他们获取input输入，然后实�
 - Static operations / 静态操作容器
 - Member operations / 成员操作容器
 
-Static operations只有他们自己，操作那些提供给他的数据。这里的 “member” 其实点出了这些operations的从属，然后操作数据类型的数据。
+While static operations are on their own, operating only on data they are being fed with, the term member refers to the fact that those operations belong to and operate on the data of a datatype.
+
+## Definition vs. Application / 定义和应用
+
+使用“operation”这个单词，有些时候可能会暧昧不清，一方面我们可以指一个“operation definition”，同时也可能是指“application of the operation definition”，也往往也就是一个节点。
+
+## Static operation definitions / 静态操作定义
+
+静态的operation definitions可以通过节点浏览器在文档中直接创建，或者在一个group patch中创建。
+
+![](https://thegraybook.vvvv.org/images/language/vl-Operations-Static-NodeBrowser.png)
+
+在节点浏览器中选择并创建一个operation definition。默认的情况下，static operations 的Is Generic 的参数为true。关闭这个选项会让这个operation definition的输入和输出显示错误，因为输入输出并没有被定义数据类型。
+
+![](https://thegraybook.vvvv.org/images/language/vl-Utils-StaticOperation-GenericToggle.png)
+
+“Is Generic” 开关在operation 被创建的时候就是默认被打开的。这个时候，刚刚创建的operation definition将会出现在你的节点浏览器中，现在可以被作为一个节点（应用）被创造出来。
+
+![](https://thegraybook.vvvv.org/images/language/vl-Operations-Static-MyOperation-NodeBrowser.png)
+
+新生成的operation 节点（应用） 可以在节点浏览器中找到了
+
+## Member operation definitions / 成员操作容器的定义
+
+（未完待续...）

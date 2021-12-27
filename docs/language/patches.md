@@ -1,55 +1,54 @@
 ---
-title: Patches / 图档
+title: Patches / 草图
 sidebar_position: 2
 ---
 
-Patches（图档）是我们放置节点的地方。图档有不同的类型：
-- Document Patch （文件图档）
-- Datatype Patch （数据类型图档）
-- Group Patch （组图档）
+[源文档地址](https://thegraybook.vvvv.org/reference/language/patches.html)
 
-## Document Patch （文件图档）
+草图是我们放置节点的地方。我们有不同类型的草图：
+- Document Patch / 文档草图
+- Datatype Patch / 类型草图
+- Group Patch
 
-:::note
-这部分文档属于之前的版本，新版本的使用已经跟这里写的不一样了。因此我们可以等待官方更新之后再做翻译。如果没见更新的话我们自己稍微补充一下就可以了。
-:::
+## Document Patch / 文档草图
 
-Every .vl document has at least one patch, the document patch which gives an overview of the content in the document. The document patch of the active document can always be reached via the shortcut `Alt``P`.
+每一个vl的文件都至少有一个文档草图。这个草图提供了在这个文档中内容的总览。
+当前正在编辑的文件的文档草图可以通过快捷键`Alt``P`打开。
 
 ![](https://thegraybook.vvvv.org/images/language/vl-DocumentPatch.png)
 
-Section of the document patch of VL.CoreLib.vl
-Here we typically see a range of type-definitions and groups though a document patch can also directly hold operation-definitions.
+在这个草图里我们基本上可以查看到各种数据类型的定义，还有各个运算器的定义。
 
-The document patch can set or omit a base category.
+这个文档草图同样可以设置基本目录。（在文件彼此引用的时候会很有帮助）
 
 ![](https://thegraybook.vvvv.org/images/language/vl-DocumentPatch-BaseCategory.png)
 
-Document base category set to "Foo"
+:::note
+文档式草图在当前版本的UI里，应该主要是体现在Difinations里面
+:::
 
-## Datatype Patch
+## Datatype Patch / 类型草图
 
-The most common type of patch is a datatype patch. It roughly corresponds to what other programming languages call a "class". Every datatype patch has a corresponding type-definition in the document patch.
+类型草图是我们最常接触到的。它基本上可以理解为在其他编程语言中的“class”。每一个类型草图都可以定义它相应的类型。
 
-There are two ways to create a new datatype patch:
+有两种方式可以新建一个类型草图：
+- 按下`Ctrl``P`就可以在你光标所在位置新建一个process node（过程节点），并打开它
+- 按下`Ctrl``Shift``P`就会在文档的定义中添加一个process difination（过程节点定义），并打开它
 
-Press CtrlP to create a process node at the cursor and open the new patch
-Press CtrlShiftP to create a process definition in Definitions and open the new patch
-In both cases the corresponding type-definition is automatically placed in the document patch of the active document.
+以上两种情况下，系统都会自动地把对应的定义放置在当前项目的文档草图中。
 
-A datatype patch can have properties and contains at least a Create and an Update operation but can contain any number of additional operations.
+一个类型草图包含它的参数，同时也至少包含一个 *Create* 和一个*Update*运算器，当然你可以增加更多的运算器。
 
-By default a datatype patch defines a Process Node.
+默认情况下会新建Process Node（过程节点）类型的草图。
 
 ![](https://thegraybook.vvvv.org/images/language/vl-DatatypePatch.png)
 
-Datatypes: Process, Record and Class
-- Process (default): to define a Process Node
-- Record: to define an immutable datatype
-- Class: to define a mutable datatype
-Both Class and Record can also optionally define a Process.
+类型：Process, Record and Class
 
+- Process (default): 定义一个过程节点
+- Record: 定义一个Immutable（不可变）的数据类型
+- Class: 定义一个Mutable（可变）的数据类型
 
-
+Class和Record都可以手动切换成Process。
 
 

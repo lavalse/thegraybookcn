@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '灰皮书',
   tagline: 'vvvv gamma 中文文档',
-  url: 'https://tutorial.mondaypicnic.com/',
+  url: 'https://docs.nodenodenode.net/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'vvvv community cn', // Usually your GitHub org/user name.
+  projectName: 'the gray book', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/lavalse/thegraybookcn/',
         },
         blog: {
           showReadingTime: true,
@@ -44,10 +44,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'webbased',
-        path: 'webbased',
-        routeBasePath: 'webbased',
-        sidebarPath: require.resolve('./sidebarsWebbased.js'),
+        id: 'studygroup',
+        path: 'studygroup',
+        routeBasePath: 'studygroup',
+        sidebarPath: require.resolve('./sidebarsStudyGroup.js'),
         // ... other options
       },
     ],
@@ -72,7 +72,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          // {to: '/webbased/index', label: 'WebBased', position: 'left'},
+          {to: '/studygroup', label: '学习小分队', position: 'left'},
         ],
       },
       footer: {
@@ -82,27 +82,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'vvvv gamma 中文文档',
                 to: '/docs/intro',
               },
             ],
           },
           {
             title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
           },
           {
             title: 'More',
@@ -113,12 +99,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/lavalse/thegraybookcn',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} vvvv community cn.`,
       },
       prism: {
         theme: lightCodeTheme,

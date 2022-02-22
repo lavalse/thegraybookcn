@@ -50,21 +50,35 @@ export default function Home() {
           <div>
             <div class="row margin-vert--xl">
               <div class="col col--4">
-              <div class="card">
-                <div class="card__header">
-                  <h3>文档</h3>
-                </div>
-                <div class="card__body">
-                  <p>
-                    vvvv-gamma的文档。涉及编辑器的使用，vl语言的特性以及第三方库的使用等等。
-                  </p>
-                </div>
-                <div class="card__footer">
-                  <Link to="/docs/getting-started" class="button button--secondary button--block">进入</Link>
+                <div class="card">
+                  <div class="card__header">
+                    <h3>文档</h3>
+                  </div>
+                  <div class="card__body">
+                    <p>
+                      vvvv-gamma的文档。涉及编辑器的使用，vl语言的特性以及第三方库的使用等等。
+                    </p>
+                  </div>
+                  <div class="card__footer">
+                    <Link to="/docs/getting-started" class="button button--secondary button--block">进入</Link>
+                  </div>
                 </div>
               </div>
+              <div class="col col--4">
+                <div class="card">
+                  <div class="card__header">
+                    <h3>学习小分队</h3>
+                  </div>
+                  <div class="card__body">
+                    <p>
+                      一个相互分享的学习小分队，定期分享学习心得。
+                    </p>
+                  </div>
+                  <div class="card__footer">
+                    <Link to="/studygroup/" class="button button--secondary button--block">进入</Link>
+                  </div>
+                </div>
               </div>
-              <div class="col col--4"></div>
               <div class="col col--4"></div>
             </div>
           </div>

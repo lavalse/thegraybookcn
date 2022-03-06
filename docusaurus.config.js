@@ -72,7 +72,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/studygroup', label: '学习小分队', position: 'left'},
+          {to: '/studygroup', label: '快乐小组', position: 'left'},
         ],
       },
       footer: {

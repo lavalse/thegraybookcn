@@ -51,6 +51,13 @@ export default function Home() {
             <div class="row margin-vert--xl">
               <div class="col col--4">
                 <div class="card">
+                  <div class="card__image">
+                    <img
+                      src="./img/docs.png"
+                      alt="Image alt text"
+                      title="Logo Title Text 1"
+                    />
+                  </div>
                   <div class="card__header">
                     <h3>文档</h3>
                   </div>
@@ -60,22 +67,29 @@ export default function Home() {
                     </p>
                   </div>
                   <div class="card__footer">
-                    <Link to="/docs/getting-started" class="button button--secondary button--block">进入</Link>
+                    <Link to="/docs/getting-started" class="button button--outline button--primary">进入</Link>
                   </div>
                 </div>
               </div>
               <div class="col col--4">
                 <div class="card">
+                  <div class="card__image">
+                    <img
+                      src="./img/studygroup.png"
+                      alt="Image alt text"
+                      title="Logo Title Text 1"
+                    />
+                  </div>
                   <div class="card__header">
-                    <h3>学习小分队</h3>
+                    <h3>快乐小组</h3>
                   </div>
                   <div class="card__body">
                     <p>
-                      一个相互分享的学习小分队，定期分享学习心得。
+                      一个相互分享的学习小组，定期举行活动，分享学习心得。
                     </p>
                   </div>
                   <div class="card__footer">
-                    <Link to="/studygroup/" class="button button--secondary button--block">进入</Link>
+                    <Link to="/studygroup/" class="button button--outline button--primary">进入</Link>
                   </div>
                 </div>
               </div>

@@ -30,3 +30,8 @@
 .description{
   max-width: 500px;
 }
+
+.cardImage{
+  width: 800px;
+  height: 100px;
+}

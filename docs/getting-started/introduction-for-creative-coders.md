@@ -8,3 +8,20 @@ sidebar_position: 2
 ## 用户使用vvvv来做些什么
 
 vvvv被广泛地用于各种领域，包括：生成艺术，交互设计，数据可视化，计算机图像学，VR，演出控制，物理计算，机器学习，以及各式各样的快速原型设计。可以来[Gallery](https://visualprogramming.net/#Gallery)看看各种案例。
+
+---
+
+根据你从不同的平台而来，vvvv可以提供给你不同的益处。
+
+## 来自其他的创意编程环境
+
+如果你对下列可视化编程的环境很熟悉的话：
+- [cables](https://cables.gl/)
+- [Isadora](https://troikatronix.com/)
+- [Max](https://cycling74.com/)
+- [PD](http://puredata.info/)
+- [TouchDesigner](https://derivative.ca/)
+- [Vuo](https://vuo.org/)
+
+...那么，下面的信息你可能会感兴趣。
+

@@ -25,3 +25,30 @@ vvvv被广泛地用于各种领域，包括：生成艺术，交互设计，数�
 
 ...那么，下面的信息你可能会感兴趣。
 
+## 庞大的，模块化的，开源的节点库
+
+查看[Library](https://thegraybook.vvvv.org/reference/libraries/overview.html)页面，你可以纵观你能够使用各种各样的，大量的vvvv的节点库。大部分的节点库是开源的（部分节点库是因为组织结构的原因，没有做到开源）。除了核心库[VL.CoreLib](https://thegraybook.vvvv.org/reference/libraries/corelib.html)之外，还有几个大型的节点库资源：
+- VL.Stride: 用作3D渲染，shader编程，VR...基于[Stride引擎](https://www.stride3d.net/)
+- VL.Skia: 用作2D渲染，矢量图形的输出...基于[Skia](https://skia.org/)
+- VL.OpenCV: 用作计算机视觉,... 基于[OpenCV](https://opencv.org/)
+- VL.Fuse: 一个GPU的工具集，用来使用Stride
+- VL.Elementa: 一个Skia的UI组件库
+
+此外还有一系列的开箱即用的[外接设备节点库](https://thegraybook.vvvv.org/reference/libraries/devices.html)和[IO协议节点库](https://thegraybook.vvvv.org/reference/libraries/io.html)。
+
+## 导出Windows应用程序
+
+任何你用vvvv编写的项目，都可以被[导出](https://thegraybook.vvvv.org/reference/hde/exporting.html)成为一个windows的应用程序。其他平台也正在计划中。
+
+## 舒适的版权模式
+
+vvvv对于非商业应用是免费的。只需要下载安装，然后使用它：
+- 不会询问额外的问题
+- 没有复制保护
+- 没有功能限制
+- 没有强制注册
+- 根据你的商业项目的类型大小来支付（个人，自由开发者或者中小企业，大型商业项目）
+- 你将获得最新的版本
+- 支持按年按月的计费方式
+
+如果你正要开始使用vvvv来开发商业项目，你只需要[购买一个开发者作为的license](https://store.vvvv.org/)。

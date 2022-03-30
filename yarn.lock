@@ -1706,12 +1706,13 @@
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
-"@react-three/fiber@7.0.26":
-  version "7.0.26"
-  resolved "https://registry.npmjs.org/@react-three/fiber/-/fiber-7.0.26.tgz"
-  integrity sha512-46NBais4fQIGcMGLBbOf84lp8y/cg73jOEVmAQQJqWX6iOVeNg29jYd15LBuCW2qPD1qDRU0rOfLbMDgwr/vxQ==
+"@react-three/fiber@7.0.27":
+  version "7.0.27"
+  resolved "https://registry.npmjs.org/@react-three/fiber/-/fiber-7.0.27.tgz"
+  integrity sha512-O8zNP7QwPRzZCw4fmHwbBxC45NAd0Ysiy8NGNQF8NUReHaXI+NEwXR5QFl3O/WnZKG1XNf4/l7jtIM3GA1JPpw==
   dependencies:
     "@babel/runtime" "^7.13.10"
+    "@types/react-reconciler" "^0.26.2"
     react-merge-refs "^1.1.0"
     react-reconciler "^0.26.2"
     react-three-fiber "0.0.0-deprecated"
@@ -2016,6 +2017,13 @@
   version "1.2.4"
   resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
+
+"@types/react-reconciler@^0.26.2":
+  version "0.26.4"
+  resolved "https://registry.npmjs.org/@types/react-reconciler/-/react-reconciler-0.26.4.tgz"
+  integrity sha512-bdx4aIBkQRDAnzc23JBFeZmVpmfLJHfHikmQukEt9qs4bQtq9f+PDbNwhR9u74FkIUyIDz1I1qJ8OF6RwadKpw==
+  dependencies:
+    "@types/react" "*"
 
 "@types/react-router-config@*":
   version "5.0.6"

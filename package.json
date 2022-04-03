@@ -14,9 +14,9 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.17",
-    "@docusaurus/preset-classic": "2.0.0-beta.17",
-    "@docusaurus/theme-live-codeblock": "2.0.0-beta.17",
+    "@docusaurus/core": "2.0.0-beta.18",
+    "@docusaurus/preset-classic": "2.0.0-beta.18",
+    "@docusaurus/theme-live-codeblock": "2.0.0-beta.18",
     "@mdx-js/react": "1.6.22",
     "@react-three/drei": "7.22.4",
     "@react-three/fiber": "7.0.26",
